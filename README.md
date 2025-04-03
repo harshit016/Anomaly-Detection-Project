@@ -1,38 +1,40 @@
-Anomaly Detection Project
+🚨 Crime Anomaly Detection Using Deep Learning & Surveillance Cameras
+Crime detection through AI-powered surveillance is a game-changer for public safety. Our project leverages deep learning and computer vision to analyze surveillance footage by converting crime-related videos into images and detecting anomalies that indicate suspicious activity.
 
-Anomaly detection is a critical task in various industries, from fraud detection in finance to defect identification in manufacturing and disease diagnosis in medical imaging. This project explores an AI-driven approach to detecting anomalies using deep learning techniques and computer vision.
-
-We employ MobileNet, a lightweight and efficient deep learning model, as a feature extractor and leverage TensorFlow & Keras to build and fine-tune the anomaly detection model. The project includes data preprocessing, augmentation techniques, model training, and evaluation using various performance metrics such as ROC curves and AUC scores.
+By using MobileNet as a feature extractor and TensorFlow & OpenCV for image processing, our system enables real-time crime detection and can be integrated into CCTV networks, smart cities, and law enforcement tools.
 
 📌 Key Features
-✅ Deep Learning-Based Anomaly Detection: Leverages MobileNet and TensorFlow to detect anomalies in datasets.
-✅ Preprocessing & Augmentation: Data is preprocessed and augmented to improve model generalization and accuracy.
-✅ Advanced Visualization: Uses Matplotlib, Seaborn, and Plotly to generate insightful visualizations.
-✅ Performance Evaluation: Evaluates models using ROC curves, AUC scores, and classification metrics.
-✅ Real-World Applications: Can be adapted for fraud detection, medical diagnostics, and industrial defect detection.
+✅ Video-to-Image Conversion: Extracts frames from surveillance videos for deep learning analysis.
+✅ AI-Powered Crime Detection: Identifies anomalies in crime-related images using MobileNet.
+✅ Surveillance Integration: Optimized for CCTV cameras and real-time crime monitoring.
+✅ Preprocessing & Augmentation: Enhances accuracy with data cleaning and augmentation techniques.
+✅ Performance Evaluation: Uses ROC curves, AUC scores, and classification metrics for assessment.
 
 🛠 Technologies Used
 Python 🐍
 
 TensorFlow & Keras 🔥
 
-MobileNet for Feature Extraction 📷
+MobileNet for Feature Extraction 🎥
+
+OpenCV for Video-to-Image Conversion 🎞️
 
 Matplotlib, Seaborn, and Plotly for Data Visualization 📊
 
 Scikit-learn for Model Evaluation 🎯
 
 📂 Project Structure
-📂 Anomaly_Detection  
-│── 📜 dataset/          # Dataset used for training/testing  
-│── 📜 models/           # Saved trained models  
+
+📂 Crime_Anomaly_Detection  
+│── 📜 dataset/          # Frames extracted from surveillance videos  
+│── 📜 models/           # Trained deep learning models  
 │── 📜 notebooks/        # Jupyter Notebooks with code  
-│── 📜 src/              # Source code for training & evaluation  
+│── 📜 src/              # Code for training & real-time detection  
 │── 📜 requirements.txt  # Dependencies  
-│── 📜 README.md         # Project Documentation  
+│── 📜 README.md         # Documentation 
 
 
 🚀 Future Enhancements
-🔹 Fine-tuning MobileNet for better accuracy
-🔹 Implementing additional deep learning models for comparison
-🔹 Deploying the model as a web app or API for real-time anomaly detection
+🔹 Real-Time Deployment: Integrating with live CCTV feeds for on-the-spot anomaly detection.
+🔹 Edge AI Optimization: Running on low-power devices like Jetson Nano for smart surveillance.
+🔹 Multi-Camera Analysis: Improving detection accuracy across multiple surveillance points.
